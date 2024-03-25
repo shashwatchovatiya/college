@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>105 Registration Page</title>
+    <style>
+        *{
+            background-color: lightskyblue;
+        }
+        input ,textarea,select,button{
+            background-color: aliceblue;
+        }
+        .table1 {
+            width: 400px;
+        }
+
+        .Input {
+            margin: 10px ;
+            padding: 10px 20px;
+
+        }
+
+        .Form1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        table{
+
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <table class="table1">
+        <form action="" class="Form1">
+           <tr> <td colspan="2"> <h1 align="center">Registration Page</h1></td></tr>
+
+            <tr>
+
+                <td> <label for="fname">Firstname: </label></td>
+                <td> <input class="Input" type="text" placeholder="Enter Your First name" id="fname"
+                        name="fname"><br><br></td>
+            </tr>
+            <tr>
+
+
+                <td> <label for="mname">Middlename:</label></td>
+                <td> <input class="Input" type="text" placeholder="Enter Your Middlename name" id="mname"
+                        name="mname"><br><br></td>
+            </tr>
+
+            <tr>
+
+                <td> <label for="lname">Lastname:</label></td>
+                <td> <input class="Input" type="text" placeholder="Enter Your Lastname name" id="lname"
+                        name="lname"><br><br></td>
+            </tr>
+            <tr>
+
+                <td> <label for="course" >Course:</label></td>
+                <td class="Input"><select>
+                        <option value="Course">Course </option>
+                        <option value="BCA">BCA</option>
+                        <option value="BCOM">BCOM</option>
+                        <option value="BBA">BBA</option>
+                    </select><br><br></td>
+            </tr>
+
+            <tr>
+
+
+                <td> <label for="gender">Gender :</label><br></td>
+                <td>
+                    <div class="">
+                        <input class="Input" type="radio" id="male" name="gender" value="male"> Male <br>
+                        <input class="Input" type="radio" id="female" name="gender" value="female"> Female<br>
+                        <input class="Input" type="radio" id="male" name="gender" value="other"> Other <br><br>
+
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input class="Input" type="tel" placeholder="Enter phone number"> <br><br></td>
+            </tr>
+
+            <tr>
+
+
+                <td> <label for="address">Address:</label><br></td>
+                <td> <textarea class="Input" name="adderss" id="adderss" cols="100" rows="10"></textarea><br><br></td>
+            </tr>
+
+            <tr>
+
+                <td> <label for="email">Email:</label></td>
+                <td> <input class="Input" type="email" placeholder="Enter Your Email" id="email" name="email"><br><br>
+                </td>
+
+            </tr>
+            <tr>
+                <td> <label for="password">Password:</label></td>
+                <td><input class="Input" type="password" placeholder="Enter Your Password" id="password"
+                        name="password"><br><br></td>
+
+            </tr>
+            <tr>
+                <td> <label for="retype-password">Re-type password:</label></td>
+                <td><input class="Input" type="password" placeholder="Enter Your Retype Password" id="retype-password"
+                        name="retype-password"><br><br></td>
+
+            </tr>
+            <tr>
+
+                <td colspan="2" align="center"><button type="submit" class="Input">Submit</button></td>
+            </tr>
+    </table>
+    </form>
+
+</body>
+
+</html>
