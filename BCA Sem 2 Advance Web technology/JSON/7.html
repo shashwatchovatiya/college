@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        var carDetails = {
+            "CAR": [
+                {
+                    "Company": "MARUTI",
+                    "Model": "Swift",
+                    "Variant": "Petrol",
+                    "MFD": "24/03/2023",
+                    "Price": 700000
+                },
+                {
+                    "Company": "Mahindra",
+                    "Model": "XUV700",
+                    "Variant": "Diesel",
+                    "MFD": "01/01/2023",
+                    "Price": 1500000
+                }
+            ]
+        }
+
+        document.write(" <h1> Car 1 </h1>");
+        document.write("Company :- "+ carDetails.CAR[0].Company + "<br><br>" );
+        document.write("Model :- "+ carDetails.CAR[0].Model+ "<br><br>" );
+        document.write("Variant :- "+ carDetails.CAR[0].Variant + "<br><br>" );
+        document.write("Price :- "+ carDetails.CAR[0].Price + "<br><br>" );
+        document.write("MFD :- "+ carDetails.CAR[0].MFD + "<br><br>" );
+
+
+        document.write(" <h1> Car 2 </h1>");
+        document.write("Company :- "+ carDetails.CAR[1].Company + "<br><br>" );
+        document.write("Model :- "+ carDetails.CAR[1].Model+ "<br><br>" );
+        document.write("Variant :- "+ carDetails.CAR[1].Variant + "<br><br>" );
+        document.write("Price :- "+ carDetails.CAR[1].Price + "<br><br>" );
+        document.write("MFD :- "+ carDetails.CAR[1].MFD + "<br><br>" );
+
+
+    </script>
+
+</body>
+
+</html>

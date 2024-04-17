@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mobile>
+    <MobileDetail>
+        <Company>Samsung</Company>
+        <Model>Galaxy S22 Ultra</Model>
+        <Price>130000</Price>
+    </MobileDetail>
+    <MobileDetail>
+        <Company>iphone</Company>
+        <Model>iphone 15 pro max</Model>
+        <Price>134900</Price>
+    </MobileDetail>
+    <MobileDetail>
+        <Company>Onepluse</Company>
+        <Model>Nord CE 3 Lite 5G</Model>
+        <Price>20000</Price>
+    </MobileDetail>
+
+</Mobile>

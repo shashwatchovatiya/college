@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<Syllabus>
+    <BCA>
+        <SEM>2</SEM>
+        <Subject>
+            <subject1>DSA</subject1>
+            <subject2>AWT</subject2>
+            <subject3>DBMS</subject3>
+            <subject4>WordPress</subject4>
+        </Subject>
+    </BCA>
+    <BCA>
+        <SEM>1</SEM>
+        <Subject>
+            <subject1>HTML and CSS</subject1>
+            <subject2>C</subject2>
+            <subject3>OpenOffice</subject3>
+            <subject4>ECT</subject4>
+        </Subject>
+    </BCA>
+</Syllabus>

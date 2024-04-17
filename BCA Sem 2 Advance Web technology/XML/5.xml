@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RealEstateInformation>
+    <Agency>
+        <Name>Tomer Gas line</Name>
+        <Email>tomargasline@gmail.com</Email>
+        <Phone>+91 0123456789</Phone>
+    </Agency>
+    <Owner>
+        <Name>Kundan Shih</Name>
+    </Owner>
+    <Property>
+        <Name>Cozy Cottage</Name>
+        <Description>Tomer Gas Limited (TGL) is India's largest City Gas Distribution (CGD) Company in terms of sales volume operating in 44 districts in 6 states of Gujarat, Maharashtra, Rajasthan, Haryana, Punjab and Madhya Pradesh and 1 Union territory of Dadra and Nagar Haveli.</Description>
+        <Area>1200 sq. ft.</Area>
+        <City>Ahemdabad</City>
+    </Property>
+</RealEstateInformation>

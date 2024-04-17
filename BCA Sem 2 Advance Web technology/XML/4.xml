@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<University>
+    <Courses>
+        <Course>
+            <CourseID>101</CourseID>
+            <CourseName>Introduction to Computer Science</CourseName>
+        </Course>
+        <Course>
+            <CourseID>202</CourseID>
+            <CourseName>Data Structures and Algorithms</CourseName>
+        </Course>
+        <!-- Add more courses as needed -->
+    </Courses>
+
+    <Semesters>
+        <Semester id="Batch-2023">
+            <Name>BCA Batch-2023</Name>
+        </Semester>
+        <Semester id="Batch-2024">
+            <Name>BCA Batch 2024</Name>
+        </Semester>
+        <!-- Add more semesters as needed -->
+    </Semesters>
+</University>

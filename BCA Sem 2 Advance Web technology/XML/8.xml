@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProjectDetails>
+    <project>
+        <projectid>56758</projectid>
+        <projectname>Web Application Development</projectname>
+        <projectdate>02-02-2024</projectdate>
+        <totalMember>4</totalMember>
+    </project>
+    <project>
+        <projectid>56759</projectid>
+        <projectname>Mobile App Development</projectname>
+        <projectdate>21-01-2024</projectdate>
+        <totalMember>3</totalMember>
+    </project>
+    <project>
+        <projectid>56760</projectid>
+        <projectname>Data Mining and Analytics</projectname>
+        <projectdate>22-02-2024</projectdate>
+        <totalMember>6</totalMember>
+    </project>
+</ProjectDetails>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studentResult>
+    <student>
+        <rollNumber>1807</rollNumber>
+        <name>Shashwat</name>
+        <subjects>
+            <subject>
+                <name>Advance Web Technology</name>
+                <marks>85</marks>
+            </subject>
+            <subject>
+                <name>Data Structer</name>
+                <marks>75</marks>
+            </subject>
+            <subject>
+                <name>Database Management System</name>
+                <marks>90</marks>
+            </subject>
+        </subjects>
+        <totalMarks>250</totalMarks>
+        <percentage>83.33</percentage>
+        <result>Pass</result>
+    </student>
+</studentResult>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bank [
+<!ELEMENT Bank (Employee+)>
+<!ELEMENT Employee (Name, Birthdate, skills)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Birthdate (Date, Month, Year)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Month (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
+<!ELEMENT skills (#PCDATA)>
+<!ATTLIST skills type CDATA #REQUIRED>
+]>
+
+<Bank>
+  <Employee>
+    <Name>Shashwat</Name>
+    <Birthdate>
+      <Date>11</Date>
+      <Month>11</Month>
+      <Year>2005</Year>
+    </Birthdate>
+    <skills type="Numeracy">Numerical and graphical information,</skills>
+  </Employee>
+  <Employee>
+    <Name>Dhrumil</Name>
+    <Birthdate>
+      <Date>27</Date>
+      <Month>10</Month>
+      <Year>2006</Year>
+    </Birthdate>
+    <skills type="Teamwork">Team Work</skills>
+  </Employee>
+</Bank>

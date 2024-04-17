@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bookstore>
+    <Book catgaroir="Learning">
+        <title language="English">XML and releted techology</title>
+        <Author>Atul Kahate</Author>
+        <year>2019</year>
+        <price>420</price>
+    </Book>
+    <Book catgaroir="Learning">
+        <title language="English">Javascript step by step</title>
+        <Author>Steve Suehring</Author>
+        <year>2019</year>
+        <price>320</price>
+    </Book>
+    <Book catgaroir="Learnin">
+        <title language="English">A Complete guid to internet and programming </title>
+        <Author>Deven N. Shah</Author>
+        <year>2018</year>
+        <price>350</price>
+    </Book>
+</Bookstore>
